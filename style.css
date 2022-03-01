@@ -1,0 +1,57 @@
+/* Link for font family */
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Kanit:wght@300&family=Merriweather:wght@300;400&family=Potta+One&family=Shippori+Antique+B1&family=Yanone+Kaffeesatz:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Kanit:wght@300&family=Merriweather:wght@300;400&family=Potta+One&family=Roboto:wght@300&family=Shippori+Antique+B1&family=Yanone+Kaffeesatz:wght@600&display=swap');
+
+/* Reset CSS */
+*{
+    margin:0px;
+    padding:0;
+}
+/* Logo and header */
+nav{
+display:flex;
+justify-content:center;
+align-items:center;
+background-color:#918f8f;
+color:black;
+height:60px;
+width:100vw;
+
+
+}
+
+.logo{
+    padding:10px;
+}
+.content{
+    font-family: 'Potta One', cursive;
+  
+   
+}
+
+.logo img{
+    height:40px;
+}
+
+/* Body-section */
+.container{
+    font-weight:bold;
+    background-color:#efefef;
+    border-radius:5px;
+    width: 90vh;
+    margin: 20px auto;
+    padding:20px 0px;
+    font-family: 'Roboto', sans-serif;
+    
+    
+}
+
+@media only screen and (max-width: 772px) {
+    
+    
+   .container{
+    width: 38vh;
+   }
+      
+  }
+
